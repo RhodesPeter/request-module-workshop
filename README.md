@@ -21,7 +21,7 @@ Example 2 - I would like to use the request module to make a HTTP request to the
 Build the Node request module from scratch.
 
 1. Create a node server
-2. Build a request function that will has two method:
+2. Build a function called request that has two method:
    - GET
    - POST
 
