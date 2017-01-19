@@ -1,4 +1,5 @@
 # Request module - morning challenge
+Time Required: 1 hour
 
 ### What is the Node request module?
 
@@ -19,10 +20,10 @@ Example 2 - I would like to use the request module to make a HTTP request to the
 # Your challenge 
 Build the Node request module from scratch.
 
-
-
-
-
+1. Create a node server
+2. Build a request function that will has two method:
+   - GET
+   - POST
 
 <br><br><br><br>
 **DON'T FORGET TO RUN THIS README THROUGH A SPELL CHECKER**
