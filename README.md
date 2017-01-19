@@ -2,7 +2,7 @@
 
 ### What is the Node request module?
 
-The [request module](https://github.com/request/request) helps to make HTTP requests as simple as possible. The module preforms a similar task to the Node http and https core module but it makes the process much simpler. 
+The [request module](https://github.com/request/request) helps to make HTTP requests as simple as possible. The module preforms a similar task to the Node http and https core module but it makes the process much simpler. [Here](http://stackabuse.com/the-node-js-request-module/) is a brilliant article on the request module. 
 
 ### What is a HTTP request? 
 
