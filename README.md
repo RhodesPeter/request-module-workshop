@@ -20,20 +20,20 @@ Example 2 - I would like to use the request module to make a HTTP request to the
 # Your challenge 
 Build the Node request module from scratch.
 
+The request module simple creates a wrapper around the Node core http and https modules. Your task it to create this wrapper into a function called request. Your function will use the http module and specifically the http.get method. (THIS ALL NEEDS FACT CHECKING!)
+
 1. Create a node server
 2. Build a function called request that has two method:
    
-   - GET
-     This method should return some data (html, an image, JSON Object) from a website and display it in your browser.
-     Your request method should take an object as an argument with 3 properties: url, method and payload (optioinal).
-   - POST
+   - GET <br>
+   This method should return some data (html, an image, JSON Object) from a website and display it in your browser.
+   Your request method should take an object as an argument with 3 properties: url, method and payload (optional).
+     
+   - POST <br>
    This method should...
    
-  use the inbuilt http request method 
-  - they will be wrapping a wrapper around the http.get and http.post methods.
-
-
-
-Stretch goal - make a wrapper around https (as opposed to http).
 <br><br><br><br>
+NOTES FOR PETER
+To note - you need to put some thought into the notion of using technology that has lots of dependancies. The requst module has XXX number of dependancies which can bring with it lots of different issues. 
+Stretch goal - make a wrapper around https (as opposed to http).
 **DON'T FORGET TO RUN THIS README THROUGH A SPELL CHECKER**
