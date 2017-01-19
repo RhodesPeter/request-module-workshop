@@ -1,6 +1,4 @@
 # Request module - morning challenge
-Build the Node request module from scratch. <br><br>
-
 
 ### What is the Node request module?
 
@@ -19,8 +17,7 @@ Example 2 - I would like to use the request module to make a HTTP call to the [T
 
 
 # Your challenge 
-
-
+Build the Node request module from scratch.
 
 
 
