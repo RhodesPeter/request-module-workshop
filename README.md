@@ -6,7 +6,7 @@ The [request module](https://github.com/request/request) helps to make HTTP requ
 
 ### What is a HTTP request? 
 
-HTTP requests are used whenever you want to fetch a file from a server, this could be any information on a database. 
+HTTP (Hypertext Transfer Protocol) requests are used whenever you want to fetch a file from a server, this could be any information on a database. 
 HTTP is a request/response protocol, which means your computer sends a request for some data from a server (GET request) and will receive some data in response.
 
 ### When would I need to use the request module? 
