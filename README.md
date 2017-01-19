@@ -23,8 +23,13 @@ Build the Node request module from scratch.
 1. Create a node server
 2. Build a function called request that has two method:
    - GET - This method should return some data (html, an image, JSON Object) from a website and display it in your browser.
+    it takes an object that has 3 properties url, mehod and payload (optioinal).
+    takes the object and depending on the method. use the inbuilt http request method 
    - POST
    This method should...
+   
+   
+  - they will be wrapping a wrapper around the http.get and http.post methods.
 
 <br><br><br><br>
 **DON'T FORGET TO RUN THIS README THROUGH A SPELL CHECKER**
