@@ -31,9 +31,7 @@ The request module simple creates a wrapper around the Node core http and https 
      
    - POST <br>
    This method should...
-   
-<br><br><br><br>
-NOTES FOR PETER
+
+NOTES
 - You need to highlight the idea that thought needs to go into using technology that has lots of dependancies. The request module has XXX number of dependancies. This makes your code vulnerable.  
 - Stretch goal - make a wrapper around https (as opposed to http).
-- DON'T FORGET TO RUN THIS README THROUGH A SPELL CHECKER.
