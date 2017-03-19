@@ -1,5 +1,5 @@
 # Morning challenge - Build the Request module
-This week in your project you will be making API calls from the backend. In the past few weeks you have been making API calls from the frontend with the XMLHttpRequest() object and it's methods. Now that you are in the backend we would like you to use the [Request module](https://www.npmjs.com/package/request). This workshop is intended to familiarize you with this module. 
+This week in your project you will be making API calls from the backend. In the past few weeks you have been making API calls from the frontend with the XMLHttpRequest object and it's methods. Now that you are in the backend we would like you to use the Request module. This workshop is intended to familiarise you with this module.
 
 ### Time Required: 1 hour
   - 50 mins to complete the challenge in pairs
@@ -14,12 +14,12 @@ The request module helps to make HTTP requests as simple as possible and it is b
 ### When would I need to use the request module? 
 Example 1 - I would like to GET my profile-photo.png from the database to display on my homepage. 
 
-Example 2 - I would like to use the request module to make a HTTP request to the [TFL API](https://api.tfl.gov.uk/), to find out which busses go between London Brige and Bethnal Green. 
+Example 2 - I would like to use the Request module to make a HTTP request to the [TFL API](https://api.tfl.gov.uk/), to find out which busses go between London Bridge and Bethnal Green. 
 
 ### Your challenge 
 Build the Node request module from scratch.
 
-The request module simple creates a wrapper around the Node core http module. Your task it to create your own request function that performs in the same way as the request module used in the app.js file in this repo.
+The request module simply creates a wrapper around the Node core http module. Your task it to create your own request function that performs in the same way as the request module used in the app.js file in this repo.
 
 ### Start here!
 1) Clone this repo
