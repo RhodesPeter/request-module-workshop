@@ -6,7 +6,7 @@ request('https://jsonplaceholder.typicode.com/users/1', function (error, respons
   console.log('body:', body); // log the body of the request.
 });
 
-/* Comment out all the code above this line and create your own request function
+/* Comment out the code above this line and create your own request function
 which uses the Node core HTTP module and it's methods to console.log the same
 values as request function above. */
 
