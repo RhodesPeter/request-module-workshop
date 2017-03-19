@@ -8,7 +8,7 @@ request('https://jsonplaceholder.typicode.com/users/1', function (error, respons
 
 /* Comment out the code above this line and create your own request function
 which uses the Node core HTTP module and it's methods to console.log the same
-values as request function above. */
+values as the Request function above. */
 
 function request(url){
   // create your function here
