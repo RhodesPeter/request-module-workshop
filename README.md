@@ -1,4 +1,4 @@
-# Request module morning challenge - FAC10 
+# Request module morning challenge
 This week in your project you will be making API calls from the backend. In the past few weeks you have been making API calls from the client side with the XMLHttpRequest() object and it's methods. Now that you are in the backend we would like you to use the [Request module](https://www.npmjs.com/package/request). This workshop is intended to familiarize you with this module. 
 
 ### Time Required: 1 hour
