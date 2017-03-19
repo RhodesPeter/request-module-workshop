@@ -1,37 +1,28 @@
-# Request module - morning challenge
-Time Required: 1 hour
+# Request module morning challenge - FAC10 
+This week in your project you will be making API calls from the backend. In the past few weeks you have been making API calls from the client side with the XMLHttpRequest() object and it's methods. Now that you are in the backend we would like you to use the [Request module](https://www.npmjs.com/package/request. This workshop is intended to familiarize you with this module. 
+
+### Time Required: 1 hour
+  - 50 mins to complete the challenge in pairs
+  - 10 minutes to regroup and talk over the solution
+  
+### Learning outcome
+To become familiar with the Request module and the Node core [http module](https://nodejs.org/api/http.html).
 
 ### What is the Node request module?
-
-The [request module](https://github.com/request/request) helps to make HTTP requests as simple as possible. The module preforms a similar task to the Node http and https core module but it makes the process much simpler. [Here](http://stackabuse.com/the-node-js-request-module/) is a brilliant article on the request module. 
-
-### What is a HTTP request? 
-
-HTTP (Hypertext Transfer Protocol) requests are used whenever you want to fetch a file from a server, this could be any information on a database. 
-HTTP is a request/response protocol, which means your computer sends a request for some data from a server (GET request) and will receive some data in response.
+The request module helps to make HTTP requests as simple as possible and it is built around the Node HTTP core module. [Here](http://stackabuse.com/the-node-js-request-module/) is a brilliant article on the request module. 
 
 ### When would I need to use the request module? 
-
 Example 1 - I would like to GET my profile-photo.png from the database to display on my homepage. 
 
 Example 2 - I would like to use the request module to make a HTTP request to the [TFL API](https://api.tfl.gov.uk/), to find out which busses go between London Brige and Bethnal Green. 
 
-
-# Your challenge 
+### Your challenge 
 Build the Node request module from scratch.
 
-The request module simple creates a wrapper around the Node core http and https modules. Your task it to create this wrapper into a function called request. Your function will use the http module and specifically the http.get method. (THIS ALL NEEDS FACT CHECKING!)
+The request module simple creates a wrapper around the Node core http module. Your task it to create your own request function that performs in the same way as the request module used in the app.js file in this repo.
 
-1. Create a node server
-2. Build a function called request that has two method:
-   
-   - GET <br>
-   This method should return some data (html, an image, JSON Object) from a website and display it in your browser.
-   Your request method should take an object as an argument with 3 properties: url, method and payload (optional).
-     
-   - POST <br>
-   This method should...
+### Start here!
+1) Clone this repo
+2) Run the app.js file in your command line with the command `node app.js`
+3) Open app.js and follow the instructions to create your own request function
 
-NOTES
-- You need to highlight the idea that thought needs to go into using technology that has lots of dependancies. The request module has XXX number of dependancies. This makes your code vulnerable.  
-- Stretch goal - make a wrapper around https (as opposed to http).
