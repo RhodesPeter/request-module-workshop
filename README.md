@@ -8,8 +8,8 @@ This week in your project you will be making API calls from the backend. In the 
 ### Learning outcome
 To become familiar with the Request module and the Node core [http module](https://nodejs.org/api/http.html).
 
-### What is the Node request module?
-The request module helps to make HTTP requests as simple as possible and it is built around the Node HTTP core module. [Here](http://stackabuse.com/the-node-js-request-module/) is a brilliant article on the request module. 
+### What is the Node Request module?
+The Request module helps to make HTTP requests as simple as possible and it is built around the Node HTTP core module. [Here](http://stackabuse.com/the-node-js-request-module/) is a brilliant article on the request module. 
 
 ### When would I need to use the request module? 
 Example 1 - I would like to GET my profile-photo.png from the database to display on my homepage. 
