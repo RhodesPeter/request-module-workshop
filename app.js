@@ -1,7 +1,6 @@
 "use strict";
 
 const request = require('request');
-const http = require('http');
 
 const myRequest = () => {
   /*
