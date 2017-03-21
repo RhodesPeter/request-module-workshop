@@ -1,15 +1,25 @@
 var request = require('request');
 
-request('https://jsonplaceholder.typicode.com/users/1', function (error, response, body) {
-  console.log('error:', error); // log the error if one occurred
-  console.log('statusCode:', response && response.statusCode); // log the response status code if a response was received
-  console.log('body:', body); // log the body of the request.
-});
-
-/* Comment out the code above this line and create your own request function
-which uses the Node core HTTP module and it's methods to console.log the same
-values as the Request function above. */
-
-function request(url){
-  // create your function here
+function myRequest(){
+  /* create your own request module here.
+     It should take a url to make a http GET request, and a callback function with three arguments;
+     1. error (String: if an error occurred),
+     2. response(Object; includes the response & statusCode of the request),
+     3. body (String; includes the body of the request)
+  */
 }
+
+// Helper
+function testRequest(module) {
+  module('https://jsonplaceholder.typicode.com/users/1', function (error, response, body) {
+    console.log('error:', error);
+    console.log('statusCode:', response && response.statusCode);
+    console.log('body:', body);
+  });
+}
+
+// request module test
+testRequest(request)
+
+// myRequest module test
+testRequest(myRequest)
