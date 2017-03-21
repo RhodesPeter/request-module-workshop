@@ -1,6 +1,6 @@
 var request = require('request');
 
-request('https://jsonplaceholder.typicode.com/users/1', function (error, response, body) {
+request('http://www.foundersandcoders.com/', function (error, response, body) {
   console.log('error:', error); // log the error if one occurred
   console.log('statusCode:', response && response.statusCode); // log the response status code if a response was received
   console.log('body:', body); // log the body of the request.
