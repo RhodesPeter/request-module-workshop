@@ -13,13 +13,13 @@ const myRequest = (url, cb) => {
     });
 
     response.on('end', () => {
-      cb(null, response, body)
+      cb(null, response, body);
     });
 
   }).on('error', (err) => {
-    cb(err)
+    cb(err);
   });
-}
+};
 
 // Helper
 const testRequest = (module) => {
@@ -28,10 +28,10 @@ const testRequest = (module) => {
     console.log('statusCode:', response && response.statusCode);
     console.log('body:', body);
   });
-}
+};
 
 // request module test
-testRequest(request)
+testRequest(request);
 
 // // myRequest module test
-testRequest(myRequest)
+testRequest(myRequest);
