@@ -3,7 +3,7 @@
 const request = require('request');
 const http = require('http');
 
-function myRequest(url, cb){
+const myRequest = (url, cb) => {
   http.get(url, (response) => {
     response.setEncoding('utf8');
 
