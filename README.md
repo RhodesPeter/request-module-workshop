@@ -9,7 +9,7 @@ This week in your project you will be making API calls from the backend. In the 
 To become familiar with the Request module and the Node core [http module](https://nodejs.org/api/http.html).
 
 ### What is the Node Request module?
-The Request module helps to make HTTP requests as simple as possible and it is built around the Node HTTP core module. [Here](http://stackabuse.com/the-node-js-request-module/) is a brilliant article on the request module.
+The Request is a very popular module that helps to make HTTP requests as simple as possible and it is built around the Node HTTP core module. [Here](http://stackabuse.com/the-node-js-request-module/) is a brilliant article on the request module.
 
 ### When would I need to use the request module?
 Example 1 - I would like to GET my profile-photo.png from the database to display on my homepage.
@@ -19,7 +19,7 @@ Example 2 - I would like to use the Request module to make a HTTP request to the
 ### Your challenge
 Create a function called myRequest that has similar set of features to the Node request module.
 
-The request module simply creates a wrapper around the Node core http module. Your task it to create your own request function that performs in the same way as the request module used in the app.js file in this repo.
+The request module simply creates a wrapper around the Node core http module. Your task it to create your own request function that performs in the same way as the request module used in the app.js file in this repo. Hint: relate to your knowledge of streams and sending data in chunks.
 
 To complete this challenge you will need to use the [`http.get`](https://nodejs.org/api/http.html#http_http_get_options_callback) method of the node core `http` module. 
 
